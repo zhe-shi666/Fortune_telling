@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1000000000000000000100 /* FortuneTellingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000200 /* FortuneTellingApp.swift */; };
+		AA1000000000000000000101 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000201 /* AppCoordinator.swift */; };
+		AA1000000000000000000102 /* FeaturePlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000202 /* FeaturePlaceholderView.swift */; };
+		AA1000000000000000000103 /* FortuneTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000203 /* FortuneTheme.swift */; };
+		AA1000000000000000000104 /* MockScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000204 /* MockScenario.swift */; };
+		AA1000000000000000000105 /* TodayOverviewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000205 /* TodayOverviewContract.swift */; };
+		AA1000000000000000000106 /* TodayOverviewMockFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000206 /* TodayOverviewMockFactory.swift */; };
+		AA1000000000000000000107 /* TodayOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000207 /* TodayOverviewView.swift */; };
+		AA1000000000000000000108 /* TodayOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000208 /* TodayOverviewViewModel.swift */; };
+		AA1000000000000000000109 /* DailyFortuneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000209 /* DailyFortuneService.swift */; };
+		AA100000000000000000010A /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000020A /* ProfileStore.swift */; };
+		AA100000000000000000010B /* TodayOverviewTestRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000020B /* TodayOverviewTestRunner.swift */; };
+		AA100000000000000000010C /* FortuneFeatureSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000020E /* FortuneFeatureSupport.swift */; };
+		AA100000000000000000010D /* ProfileEditorFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000020F /* ProfileEditorFeature.swift */; };
+		AA100000000000000000010E /* BaziAnalysisContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000210 /* BaziAnalysisContract.swift */; };
+		AA100000000000000000010F /* BaziAnalysisFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000211 /* BaziAnalysisFeature.swift */; };
+		AA1000000000000000000110 /* NamingWorkshopContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000212 /* NamingWorkshopContract.swift */; };
+		AA1000000000000000000111 /* NamingWorkshopFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000213 /* NamingWorkshopFeature.swift */; };
+		AA1000000000000000000112 /* CompatibilityReadingContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000214 /* CompatibilityReadingContract.swift */; };
+		AA1000000000000000000113 /* CompatibilityReadingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000215 /* CompatibilityReadingFeature.swift */; };
+		AA1000000000000000000114 /* RechargeCenterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000216 /* RechargeCenterContract.swift */; };
+		AA1000000000000000000115 /* RechargeCenterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000217 /* RechargeCenterFeature.swift */; };
+		AA1000000000000000000116 /* BaziAnalysisTestRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000218 /* BaziAnalysisTestRunner.swift */; };
+		AA1000000000000000000117 /* NamingWorkshopTestRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000219 /* NamingWorkshopTestRunner.swift */; };
+		AA1000000000000000000118 /* CompatibilityReadingTestRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000021A /* CompatibilityReadingTestRunner.swift */; };
+		AA1000000000000000000119 /* RechargeCenterTestRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000021B /* RechargeCenterTestRunner.swift */; };
+		AA100000000000000000011A /* ProfileEditorTestRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000021C /* ProfileEditorTestRunner.swift */; };
+		AA100000000000000000011B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000021D /* Assets.xcassets */; };
+		AA100000000000000000011C /* FortuneAlgorithmEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000021E /* FortuneAlgorithmEngine.swift */; };
+		AA100000000000000000011D /* FortuneKnowledgeBase-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000021F /* FortuneKnowledgeBase-v1.json */; };
+		AA100000000000000000011E /* FortuneKnowledgeBase-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000021F /* FortuneKnowledgeBase-v1.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA1000000000000000000300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1000000000000000000010;
+			remoteInfo = FortuneTelling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA1000000000000000000200 /* FortuneTellingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneTellingApp.swift; sourceTree = "<group>"; };
+		AA1000000000000000000201 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AA1000000000000000000202 /* FeaturePlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturePlaceholderView.swift; sourceTree = "<group>"; };
+		AA1000000000000000000203 /* FortuneTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneTheme.swift; sourceTree = "<group>"; };
+		AA1000000000000000000204 /* MockScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScenario.swift; sourceTree = "<group>"; };
+		AA1000000000000000000205 /* TodayOverviewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayOverviewContract.swift; sourceTree = "<group>"; };
+		AA1000000000000000000206 /* TodayOverviewMockFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayOverviewMockFactory.swift; sourceTree = "<group>"; };
+		AA1000000000000000000207 /* TodayOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayOverviewView.swift; sourceTree = "<group>"; };
+		AA1000000000000000000208 /* TodayOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayOverviewViewModel.swift; sourceTree = "<group>"; };
+		AA1000000000000000000209 /* DailyFortuneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFortuneService.swift; sourceTree = "<group>"; };
+		AA100000000000000000020A /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
+		AA100000000000000000020B /* TodayOverviewTestRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayOverviewTestRunner.swift; sourceTree = "<group>"; };
+		AA100000000000000000020C /* FortuneTelling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneTelling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA100000000000000000020D /* FortuneTellingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortuneTellingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA100000000000000000020E /* FortuneFeatureSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneFeatureSupport.swift; sourceTree = "<group>"; };
+		AA100000000000000000020F /* ProfileEditorFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditorFeature.swift; sourceTree = "<group>"; };
+		AA1000000000000000000210 /* BaziAnalysisContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaziAnalysisContract.swift; sourceTree = "<group>"; };
+		AA1000000000000000000211 /* BaziAnalysisFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaziAnalysisFeature.swift; sourceTree = "<group>"; };
+		AA1000000000000000000212 /* NamingWorkshopContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamingWorkshopContract.swift; sourceTree = "<group>"; };
+		AA1000000000000000000213 /* NamingWorkshopFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamingWorkshopFeature.swift; sourceTree = "<group>"; };
+		AA1000000000000000000214 /* CompatibilityReadingContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityReadingContract.swift; sourceTree = "<group>"; };
+		AA1000000000000000000215 /* CompatibilityReadingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityReadingFeature.swift; sourceTree = "<group>"; };
+		AA1000000000000000000216 /* RechargeCenterContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeCenterContract.swift; sourceTree = "<group>"; };
+		AA1000000000000000000217 /* RechargeCenterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeCenterFeature.swift; sourceTree = "<group>"; };
+		AA1000000000000000000218 /* BaziAnalysisTestRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaziAnalysisTestRunner.swift; sourceTree = "<group>"; };
+		AA1000000000000000000219 /* NamingWorkshopTestRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamingWorkshopTestRunner.swift; sourceTree = "<group>"; };
+		AA100000000000000000021A /* CompatibilityReadingTestRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilityReadingTestRunner.swift; sourceTree = "<group>"; };
+		AA100000000000000000021B /* RechargeCenterTestRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeCenterTestRunner.swift; sourceTree = "<group>"; };
+		AA100000000000000000021C /* ProfileEditorTestRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditorTestRunner.swift; sourceTree = "<group>"; };
+		AA100000000000000000021D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA100000000000000000021E /* FortuneAlgorithmEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneAlgorithmEngine.swift; sourceTree = "<group>"; };
+		AA100000000000000000021F /* FortuneKnowledgeBase-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "FortuneKnowledgeBase-v1.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1000000000000000000400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1000000000000000000401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1000000000000000000500 = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000501 /* FortuneTelling */,
+				AA1000000000000000000508 /* FortuneTellingTests */,
+				AA100000000000000000050F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000501 /* FortuneTelling */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000502 /* App */,
+				AA100000000000000000021D /* Assets.xcassets */,
+				AA100000000000000000053B /* Resources */,
+				AA1000000000000000000503 /* Shared */,
+				AA1000000000000000000504 /* Contracts */,
+				AA1000000000000000000505 /* Mocks */,
+				AA1000000000000000000506 /* Views */,
+				AA1000000000000000000507 /* ViewModels */,
+				AA1000000000000000000510 /* Services */,
+			);
+			path = FortuneTelling;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000502 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000200 /* FortuneTellingApp.swift */,
+				AA1000000000000000000201 /* AppCoordinator.swift */,
+				AA1000000000000000000202 /* FeaturePlaceholderView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000503 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000513 /* DesignSystem */,
+				AA1000000000000000000514 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000504 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000529 /* Commerce */,
+				AA1000000000000000000515 /* Fortune */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000505 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000518 /* Fortune */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000506 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000531 /* Commerce */,
+				AA100000000000000000051B /* Fortune */,
+				AA1000000000000000000527 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000507 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000051E /* Fortune */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000508 /* FortuneTellingTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000536 /* Commerce */,
+				AA1000000000000000000521 /* Fortune */,
+				AA1000000000000000000538 /* Profile */,
+			);
+			path = FortuneTellingTests;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000050F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000020C /* FortuneTelling.app */,
+				AA100000000000000000020D /* FortuneTellingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000510 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000524 /* Fortune */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000513 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000203 /* FortuneTheme.swift */,
+				AA100000000000000000020E /* FortuneFeatureSupport.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000514 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000204 /* MockScenario.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000515 /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000052B /* Analysis */,
+				AA100000000000000000052D /* Compatibility */,
+				AA1000000000000000000516 /* Daily */,
+				AA100000000000000000052C /* Naming */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000516 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000205 /* TodayOverviewContract.swift */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000518 /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000519 /* Daily */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000519 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000206 /* TodayOverviewMockFactory.swift */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000051B /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000052E /* Analysis */,
+				AA1000000000000000000530 /* Compatibility */,
+				AA100000000000000000051C /* Daily */,
+				AA100000000000000000052F /* Naming */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000051C /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000207 /* TodayOverviewView.swift */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000051E /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000051F /* Daily */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000051F /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000208 /* TodayOverviewViewModel.swift */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000521 /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000533 /* Analysis */,
+				AA1000000000000000000535 /* Compatibility */,
+				AA1000000000000000000522 /* Daily */,
+				AA1000000000000000000534 /* Naming */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000522 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000020B /* TodayOverviewTestRunner.swift */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000524 /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000053A /* Algorithm */,
+				AA1000000000000000000525 /* Daily */,
+				AA1000000000000000000526 /* Profile */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000525 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000209 /* DailyFortuneService.swift */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000526 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000020A /* ProfileStore.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000527 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000528 /* MasterProfile */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000528 /* MasterProfile */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000020F /* ProfileEditorFeature.swift */,
+			);
+			path = MasterProfile;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000529 /* Commerce */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000052A /* Recharge */,
+			);
+			path = Commerce;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000052A /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000216 /* RechargeCenterContract.swift */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000052B /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000210 /* BaziAnalysisContract.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000052C /* Naming */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000212 /* NamingWorkshopContract.swift */,
+			);
+			path = Naming;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000052D /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000214 /* CompatibilityReadingContract.swift */,
+			);
+			path = Compatibility;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000052E /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000211 /* BaziAnalysisFeature.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000052F /* Naming */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000213 /* NamingWorkshopFeature.swift */,
+			);
+			path = Naming;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000530 /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000215 /* CompatibilityReadingFeature.swift */,
+			);
+			path = Compatibility;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000531 /* Commerce */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000532 /* Recharge */,
+			);
+			path = Commerce;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000532 /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000217 /* RechargeCenterFeature.swift */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000533 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000218 /* BaziAnalysisTestRunner.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000534 /* Naming */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000219 /* NamingWorkshopTestRunner.swift */,
+			);
+			path = Naming;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000535 /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000021A /* CompatibilityReadingTestRunner.swift */,
+			);
+			path = Compatibility;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000536 /* Commerce */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000537 /* Recharge */,
+			);
+			path = Commerce;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000537 /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000021B /* RechargeCenterTestRunner.swift */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000538 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000539 /* MasterProfile */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AA1000000000000000000539 /* MasterProfile */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000021C /* ProfileEditorTestRunner.swift */,
+			);
+			path = MasterProfile;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000053A /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000021E /* FortuneAlgorithmEngine.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000053B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000053C /* KnowledgeBase */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA100000000000000000053C /* KnowledgeBase */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000021F /* FortuneKnowledgeBase-v1.json */,
+			);
+			path = KnowledgeBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1000000000000000000010 /* FortuneTelling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1000000000000000000601 /* Build configuration list for PBXNativeTarget "FortuneTelling" */;
+			buildPhases = (
+				AA1000000000000000000700 /* Sources */,
+				AA1000000000000000000400 /* Frameworks */,
+				AA1000000000000000000800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortuneTelling;
+			productName = FortuneTelling;
+			productReference = AA100000000000000000020C /* FortuneTelling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA1000000000000000000011 /* FortuneTellingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1000000000000000000602 /* Build configuration list for PBXNativeTarget "FortuneTellingTests" */;
+			buildPhases = (
+				AA1000000000000000000701 /* Sources */,
+				AA1000000000000000000401 /* Frameworks */,
+				AA1000000000000000000801 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1000000000000000000900 /* PBXTargetDependency */,
+			);
+			name = FortuneTellingTests;
+			productName = FortuneTellingTests;
+			productReference = AA100000000000000000020D /* FortuneTellingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					AA1000000000000000000010 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					AA1000000000000000000011 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = AA1000000000000000000010;
+					};
+				};
+			};
+			buildConfigurationList = AA1000000000000000000600 /* Build configuration list for PBXProject "FortuneTelling" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1000000000000000000500;
+			productRefGroup = AA100000000000000000050F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1000000000000000000010 /* FortuneTelling */,
+				AA1000000000000000000011 /* FortuneTellingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1000000000000000000800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA100000000000000000011D /* FortuneKnowledgeBase-v1.json in Resources */,
+				AA100000000000000000011B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1000000000000000000801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA100000000000000000011E /* FortuneKnowledgeBase-v1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1000000000000000000700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1000000000000000000101 /* AppCoordinator.swift in Sources */,
+				AA1000000000000000000102 /* FeaturePlaceholderView.swift in Sources */,
+				AA1000000000000000000100 /* FortuneTellingApp.swift in Sources */,
+				AA100000000000000000011C /* FortuneAlgorithmEngine.swift in Sources */,
+				AA1000000000000000000105 /* TodayOverviewContract.swift in Sources */,
+				AA1000000000000000000112 /* CompatibilityReadingContract.swift in Sources */,
+				AA1000000000000000000109 /* DailyFortuneService.swift in Sources */,
+				AA1000000000000000000110 /* NamingWorkshopContract.swift in Sources */,
+				AA1000000000000000000106 /* TodayOverviewMockFactory.swift in Sources */,
+				AA100000000000000000010A /* ProfileStore.swift in Sources */,
+				AA100000000000000000010D /* ProfileEditorFeature.swift in Sources */,
+				AA1000000000000000000113 /* CompatibilityReadingFeature.swift in Sources */,
+				AA100000000000000000010F /* BaziAnalysisFeature.swift in Sources */,
+				AA1000000000000000000103 /* FortuneTheme.swift in Sources */,
+				AA100000000000000000010C /* FortuneFeatureSupport.swift in Sources */,
+				AA1000000000000000000115 /* RechargeCenterFeature.swift in Sources */,
+				AA1000000000000000000107 /* TodayOverviewView.swift in Sources */,
+				AA1000000000000000000108 /* TodayOverviewViewModel.swift in Sources */,
+				AA1000000000000000000111 /* NamingWorkshopFeature.swift in Sources */,
+				AA1000000000000000000114 /* RechargeCenterContract.swift in Sources */,
+				AA100000000000000000010E /* BaziAnalysisContract.swift in Sources */,
+				AA1000000000000000000104 /* MockScenario.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1000000000000000000701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1000000000000000000118 /* CompatibilityReadingTestRunner.swift in Sources */,
+				AA1000000000000000000116 /* BaziAnalysisTestRunner.swift in Sources */,
+				AA1000000000000000000117 /* NamingWorkshopTestRunner.swift in Sources */,
+				AA100000000000000000011A /* ProfileEditorTestRunner.swift in Sources */,
+				AA1000000000000000000119 /* RechargeCenterTestRunner.swift in Sources */,
+				AA100000000000000000010B /* TodayOverviewTestRunner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA1000000000000000000900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA1000000000000000000010 /* FortuneTelling */;
+			targetProxy = AA1000000000000000000300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA1000000000000000000A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		AA1000000000000000000A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA1000000000000000000A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fortune Telling";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fortunetelling123.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA1000000000000000000A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2CT2JWPAK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fortune Telling";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linx.FortuneTelling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA1000000000000000000A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/Frameworks",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linx.FortuneTellingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneTelling.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FortuneTelling";
+			};
+			name = Debug;
+		};
+		AA1000000000000000000A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/Frameworks",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linx.FortuneTellingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FortuneTelling.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FortuneTelling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1000000000000000000600 /* Build configuration list for PBXProject "FortuneTelling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1000000000000000000A00 /* Debug */,
+				AA1000000000000000000A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1000000000000000000601 /* Build configuration list for PBXNativeTarget "FortuneTelling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1000000000000000000A10 /* Debug */,
+				AA1000000000000000000A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1000000000000000000602 /* Build configuration list for PBXNativeTarget "FortuneTellingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1000000000000000000A20 /* Debug */,
+				AA1000000000000000000A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1000000000000000000001 /* Project object */;
+}
