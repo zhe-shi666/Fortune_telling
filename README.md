@@ -14,7 +14,7 @@ Fortune Telling 是一款面向对东方命理感兴趣的中文用户的 iOS Ap
 
 ### 设计稿预览
 
-![设计稿截图](docs/screenshot.png)
+![UI设计图](docs/screenshot.png)
 
 ---
 
